@@ -1,0 +1,16 @@
+{
+  "scope": "new S1 extraction questions; not reconstruction of the lost original S0 questions",
+  "questions": [
+    "Classify the visible image domain: traditional painting reproduction, modern illustration, cover/poster, photograph, or uncertain/mixed. Give visible reasons. Do not infer authorship or date.",
+    "Describe only visible subjects, positions and counts. Assign V1, V2 and other evidence IDs. Treat music associations as interpretations, not objects in the image.",
+    "Describe composition, empty space, density, layering and visible ink/color contrasts. Reuse evidence IDs and mark ambiguity.",
+    "Describe supported directional gestures, repetition and visual rhythm. A static image cannot measure real motion speed or uniquely specify BPM.",
+    "Propose up to two aesthetic or emotional interpretations with evidence IDs and an alternative reading. Do not default every image to calmness.",
+    "Suggest possible mood, tempo/rhythm, texture and spatiality controls, linked to evidence and interpretation. Instrument and mode choices may remain unknown; they are never measured from the image.",
+    "Separate image-specific suggestions from generic Chinese-style conventions. Remove unsupported defaults, retain multiple acceptable interpretations and unknowns.",
+    "Consider one local counterfactual visual change: which music suggestions could change and which could remain? This is a reasoning diagnostic, not a generation result.",
+    "Return the final evidence-linked semantic record and a 30-80 word English instrumental-music prompt using the required JSON format. Preserve uncertainty and do not add measured scores."
+  ],
+  "single_call": "same topics supplied together; output-token caps matched, actual input/output costs not matched",
+  "source_sha256": "04a06320697afadbc25e10ffcc1c0fb8fb4466662d6bd1d28ea62a2615218982"
+}

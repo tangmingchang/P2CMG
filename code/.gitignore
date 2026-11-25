@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.wav
+*.mp3
+*.flac
+*.ogg
+/data/
+/models/
+/outputs/
+/runs/
